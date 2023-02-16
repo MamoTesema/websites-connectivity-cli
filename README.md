@@ -1,5 +1,10 @@
 # Sites connectivity test cli-tool
 
+## Requirements
+
+    node version 19.4.0
+    npm version 9.2.0
+
 ## Getting started
 
 ```sh
