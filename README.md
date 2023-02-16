@@ -29,7 +29,6 @@ npm unlink
         "protocols": ["http", "https", "dns"],
         "threshold": 10000
     }
-    //...
 }
 ```
 
@@ -52,11 +51,11 @@ npm unlink
       "value": 1009.884432,
       "error": "",
     }
-    //....
 }
 ```
 
 ## TODO
 
--   improve logs, add timestamp.
+-   improve logs, add timestamp, support level
 -   add timeout option to site config.
+-   consider changing protocols array to json object
