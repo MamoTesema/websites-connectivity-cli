@@ -15,23 +15,28 @@ npm link
 site-conn --file <json.file>
 ```
 
+## When you done testing run
+
+```sh
+npm unlink
+```
+
 ## Sites config json file structure
 
 ```json
 {
     "https://example.com": {
-        "protocols":["http", "https", "dns"],
+        "protocols": ["http", "https", "dns"],
         "threshold": 10000
     }
-    .....
-    .....
+    //...
 }
 ```
 
 ## Output json file structure
 
 ```json
-"hhttps://example.com": {
+"https://example.com": {
     "dns": {
       "success": true,
       "value": "[\"93.184.216.34\"]",
@@ -41,15 +46,17 @@ site-conn --file <json.file>
       "success": true,
       "value": 734.378631,
       "error": "",
-      "bandwidth": 0
     },
     "https": {
       "success": true,
       "value": 1009.884432,
       "error": "",
-      "bandwidth": 0
     }
-    .....
-    .....
+    //....
 }
 ```
+
+## TODO
+
+-   improve logs, add timestamp.
+-   add timeout option to site config.

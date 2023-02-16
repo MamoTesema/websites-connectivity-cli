@@ -5,10 +5,6 @@ import { ProtocolResult } from '.';
 import { hrtime } from 'node:process';
 import chalk from 'chalk';
 
-interface HttpResults extends ProtocolResult {
-    bandwidth: number;
-}
-
 async function getRequest(
     _url: string,
     getFunc: (opt: object, callback: (res: IncomingMessage) => any) => any,
@@ -32,11 +28,10 @@ async function getRequest(
             'Content-Type': 'text/html'
         }
     };
-    const results: HttpResults = {
+    const results: ProtocolResult = {
         success: false,
         value: 0,
-        error: '',
-        bandwidth: 0
+        error: ''
     };
     try {
         // console.debug('start GET request to ', options.host, ', port:', port);
