@@ -1,0 +1,230 @@
+{
+  "hhttps://example.com": {
+    "dns": {
+      "success": true,
+      "value": "[\"93.184.216.34\"]",
+      "error": ""
+    },
+    "http": {
+      "success": true,
+      "value": 734.378631,
+      "error": "",
+      "bandwidth": 0
+    },
+    "https": {
+      "success": true,
+      "value": 1009.884432,
+      "error": "",
+      "bandwidth": 0
+    }
+  },
+  "https://01ad681.netsolhost.com": {
+    "dns": {
+      "success": false,
+      "value": "",
+      "error": "queryA ENOTFOUND 01ad681.netsolhost.com"
+    },
+    "http": {
+      "success": false,
+      "value": 1790.383439,
+      "error": "getaddrinfo ENOTFOUND 01ad681.netsolhost.com",
+      "bandwidth": 0
+    },
+    "https": {
+      "success": false,
+      "value": 1792.094172,
+      "error": "getaddrinfo ENOTFOUND 01ad681.netsolhost.com",
+      "bandwidth": 0
+    }
+  },
+  "https://027tzx.com": {
+    "dns": {
+      "success": true,
+      "value": "[\"107.163.253.40\"]",
+      "error": ""
+    },
+    "https": {
+      "success": false,
+      "value": 1988.517545,
+      "error": "connect ECONNREFUSED 107.163.253.40:443",
+      "bandwidth": 0
+    },
+    "http": {
+      "success": false,
+      "value": 1989.871538,
+      "error": "connect ECONNREFUSED 107.163.253.40:80",
+      "bandwidth": 0
+    }
+  },
+  "https://000owamail0.000webhostapp.com": {
+    "dns": {
+      "success": true,
+      "value": "[\"145.14.144.191\"]",
+      "error": ""
+    },
+    "http": {
+      "success": false,
+      "value": 1876.781196,
+      "error": "invalid status code 410",
+      "bandwidth": 0
+    },
+    "https": {
+      "success": false,
+      "value": 2076.119641,
+      "error": "invalid status code 410",
+      "bandwidth": 0
+    }
+  },
+  "https://028happy.com": {
+    "dns": {
+      "success": false,
+      "value": "",
+      "error": "queryA ENOTFOUND 028happy.com"
+    },
+    "http": {
+      "success": false,
+      "value": 2070.628447,
+      "error": "getaddrinfo ENOTFOUND 028happy.com",
+      "bandwidth": 0
+    },
+    "https": {
+      "success": false,
+      "value": 2071.032096,
+      "error": "getaddrinfo ENOTFOUND 028happy.com",
+      "bandwidth": 0
+    }
+  },
+  "https://023pc.cn": {
+    "dns": {
+      "success": true,
+      "value": "[\"38.6.243.118\"]",
+      "error": ""
+    },
+    "https": {
+      "success": false,
+      "value": 2008.932175,
+      "error": "connect ECONNREFUSED 38.6.243.118:443",
+      "bandwidth": 0
+    },
+    "http": {
+      "success": false,
+      "value": 2284.786105,
+      "error": "invalid status code 400",
+      "bandwidth": 0
+    }
+  },
+  "https://03284db.netsolhost.com": {
+    "dns": {
+      "success": false,
+      "value": "",
+      "error": "queryA ENOTFOUND 03284db.netsolhost.com"
+    },
+    "https": {
+      "success": false,
+      "value": 2617.435738,
+      "error": "getaddrinfo ENOTFOUND 03284db.netsolhost.com",
+      "bandwidth": 0
+    },
+    "http": {
+      "success": false,
+      "value": 2619.34522,
+      "error": "getaddrinfo ENOTFOUND 03284db.netsolhost.com",
+      "bandwidth": 0
+    }
+  },
+  "https://03991ce.netsolhost.com": {
+    "dns": {
+      "success": false,
+      "value": "",
+      "error": "queryA ENOTFOUND 03991ce.netsolhost.com"
+    },
+    "https": {
+      "success": false,
+      "value": 3072.71001,
+      "error": "getaddrinfo ENOTFOUND 03991ce.netsolhost.com",
+      "bandwidth": 0
+    },
+    "http": {
+      "success": false,
+      "value": 3074.093688,
+      "error": "getaddrinfo ENOTFOUND 03991ce.netsolhost.com",
+      "bandwidth": 0
+    }
+  },
+  "https://0791longyao.com": {
+    "dns": {
+      "success": false,
+      "value": "",
+      "error": "queryA ENOTFOUND 0791longyao.com"
+    },
+    "https": {
+      "success": false,
+      "value": 3314.018347,
+      "error": "getaddrinfo ENOTFOUND 0791longyao.com",
+      "bandwidth": 0
+    },
+    "http": {
+      "success": false,
+      "value": 3315.15284,
+      "error": "getaddrinfo ENOTFOUND 0791longyao.com",
+      "bandwidth": 0
+    }
+  },
+  "https://0668.com": {
+    "dns": {
+      "success": true,
+      "value": "[\"219.129.239.35\"]",
+      "error": ""
+    },
+    "https": {
+      "success": false,
+      "value": 3388.59675,
+      "error": "connect EHOSTUNREACH 219.129.239.35:443",
+      "bandwidth": 0
+    },
+    "http": {
+      "success": false,
+      "value": 3948.842262,
+      "error": "invalid status code 302",
+      "bandwidth": 0
+    }
+  },
+  "https://028cdxyk.com": {
+    "dns": {
+      "success": true,
+      "value": "[\"172.252.67.29\"]",
+      "error": ""
+    },
+    "http": {
+      "success": false,
+      "value": 2211.302885,
+      "error": "invalid status code 301",
+      "bandwidth": 0
+    },
+    "https": {
+      "success": false,
+      "value": 131780.095784,
+      "error": "connect ETIMEDOUT 172.252.67.29:443",
+      "bandwidth": 0
+    }
+  },
+  "https://0551gx.cn": {
+    "dns": {
+      "success": true,
+      "value": "[\"104.233.245.192\"]",
+      "error": ""
+    },
+    "http": {
+      "success": false,
+      "value": 3524.224108,
+      "error": "invalid status code 301",
+      "bandwidth": 0
+    },
+    "https": {
+      "success": false,
+      "value": 133819.275331,
+      "error": "connect ETIMEDOUT 104.233.245.192:443",
+      "bandwidth": 0
+    }
+  }
+}

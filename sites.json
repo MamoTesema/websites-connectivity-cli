@@ -1,0 +1,46 @@
+{
+    "hhttps://example.com": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    },
+    "https://000owamail0.000webhostapp.com": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    },
+    "https://01ad681.netsolhost.com": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    },
+    "https://023pc.cn": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    },
+    "https://027tzx.com": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    },
+    "https://028cdxyk.com": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    },
+    "https://028happy.com": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    },
+    "https://03284db.netsolhost.com": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    },
+    "https://03991ce.netsolhost.com": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    },
+    "https://0668.com": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    },
+    "https://0791longyao.com": {
+        "protocols": ["http", "dns", "https"],
+        "threshold": 10000
+    }
+}

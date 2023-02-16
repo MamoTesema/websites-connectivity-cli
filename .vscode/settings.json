@@ -1,0 +1,10 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.baacketPairColorization.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste.enabled": true,
+    "editor.wordWrap": "on",
+    "prettier.useTabs": true,
+    "prettier.trailingComma": "all",
+    "prettier.tabWidth": 4
+}
