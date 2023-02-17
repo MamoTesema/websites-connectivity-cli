@@ -61,6 +61,7 @@ npm unlink
 
 ## TODO
 
+-   add unit tests
 -   improve logs, add timestamp, support level
 -   add timeout option to site config.
 -   consider changing protocols array to json object

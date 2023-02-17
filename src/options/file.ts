@@ -19,7 +19,6 @@ export const fileHandler: BaseOption = {
 
 async function handler(path: string): Promise<void> {
     try {
-        process.env.NODE_ENV = 'production';
         const sitesConfig = await getFileAs(path, 'json');
 
         const resultsFilePath = path.replace(

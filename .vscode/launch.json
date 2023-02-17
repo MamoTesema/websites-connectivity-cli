@@ -21,8 +21,8 @@
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "runtimeExecutable": "npm",
-            // "args": ["${workspaceFolder}/src/index.ts", "-f", "sites.json"],
-            "args": ["${workspaceFolder}/src/index.ts", "--help"],
+            "args": ["${workspaceFolder}/src/index.ts"],
+            // "args": ["${workspaceFolder}/src/index.ts", "--help"],
             "env": {},
             "runtimeArgs": ["run-script", "start"]
         }

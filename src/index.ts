@@ -13,6 +13,7 @@ try {
 
     console.log(figlet.textSync('site connectivity'));
 
+    program.version(pkgJson.version);
     /*
      * load program options
      */
